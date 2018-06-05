@@ -6,7 +6,8 @@ namespace Constructor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Student obj1 = new Student();
+            Student obj2 = new Student(17,58.08F);
         }
     }
 }

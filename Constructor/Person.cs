@@ -8,12 +8,14 @@ namespace Constructor
     {
       private  string LastName;
        private string Firstname;
+
+        public Person(string lastName, string firstName)
+        {
+            lastName = LastName;
+            firstName = firstName;
+
+        }
     }
     
-    public Person(string lastName, string firstName)
-    {
-        lastName = LastName;
-        firstName = firstName;
-
-    }
+    
 }
